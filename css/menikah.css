@@ -613,6 +613,32 @@ body.preloader-site {
   min-height: 100rem;
 }
 
+@media (max-width: 1024px) {      
+  .foto5 {
+    background-image: linear-gradient(
+        rgba(95, 2, 2, 0.5),
+        rgba(48, 47, 47, 0.9)
+      ),
+      url('../image/5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 35rem;
+  }
+
+  .foto6 {
+    background-image: linear-gradient(
+        rgba(95, 2, 2, 0.5),
+        rgba(48, 47, 47, 0.9)
+      ),
+      url('../image/6.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 35rem;
+  }
+}
+
 .foto7 {
   background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/7.jpg");
   background-size: cover;
